@@ -3,7 +3,7 @@
 .quicksand-font {
   font-family: "Quicksand", serif;
   font-optical-sizing: auto;
-  font-weight: 400px;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -21,8 +21,44 @@
 .purple {
     color: #5D58EF;
 }
+
+/* buttons */
+
+    .contact-button {
+        color: #ffffff;
+        font-weight: 600px;
+        background-color: #FEA301;
+        border: none;
+        border-radius: 8px;
+        height: 50px;
+        width: 197px;
+        padding: 10 10;
+    }
+
 /* nav sections */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 140px 0px 140px;
+}
+
+nav ul {
+    display: flex;
+    gap: 100px;
+}
     .logo {
         display: flex;
-        gap
+        gap: 10px;
     }
+
+    li {
+        list-style-type: none;
+        font-weight: bold;
+        font-size: 1.25rem; 
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+   
