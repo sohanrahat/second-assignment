@@ -134,51 +134,56 @@ nav ul {
 
     /* banner section */
 
-        .banner {
-            display:flex; 
-            justify-content: space-between;
-            align-items: center;
-        }
+    .banner-text {
+        font-weight: bold;
+        font-size: 3.5rem;
+    }
+    .banner-image {
+        max-width: 100%;
+    }
 
-        .banner-text {
-            font-weight: bold;
-            font-size: 3.5rem;
-        }
-        .banner-image {
-            max-width: 100%;
-        }
+    .banner-paragraph{
+        font-weight: 400;
+        font-size: 1.25rem;
+    }
 
-        .banner-paragraph{
-            font-weight: 400;
-            font-size: 1.25rem;
-        }
+    .banner {
+        display:flex; 
+        justify-content: space-between;
+        align-items: center;
+    }
+
+     
 
       
 
    /* Responsive for small devices */
 
-   @media screen and (max-width:576px) {
+   @media screen and (max-width:1170px) {
 
     /* nav sectin */
 
-    nav h1,li,button {
+    nav h1,li{
         display: none;
         max-width: 100%;
-        
+
     }
+    .contact-button {
+        display: none;
+    }
+
+
 
     /* banner section */
 
-    
-    
     .banner {
+    display: flex;
     flex-direction: column-reverse;
     text-align: center;
     justify-content: center;
     max-width: 100%;
-
-
-   }
+    padding: 0 20;
+    }
    }
     /* Responsive for medium devices */
 
