@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 .quicksand-font {
   font-family: "Quicksand", serif;
   font-optical-sizing: auto;
@@ -7,6 +10,12 @@
   font-style: normal;
 }
 
+.raleway-font{
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 /* shared styles */
 
 .orange {
@@ -35,6 +44,35 @@
         padding: 10 10;
     }
 
+    .enroll-button {
+        color: #ffffff;
+        font-weight: 600px;
+        background-color: #111111;
+        border: none;
+        border-radius: 8px;
+        height: 50px;
+        width: 197px;
+        padding: 10 10;
+    }
+    .november-skyblue-button {
+        color: #ffffff;
+        font-weight: 600px;
+        background-color: #3cd8e8;
+        border: none;
+        border-radius: 48px;
+        height: 48px;
+        width: 175px;
+        padding: 10 10;
+    }
+    .november-green-button {
+        color: #ffffff;
+        font-weight: 600px;
+        background-color: #3cd8e8;
+        border: none;
+        border-radius: 48px;
+        height: 48px;
+        width: 175px;
+        padding: 10 10;
 /* nav sections */
 nav {
     display: flex;
