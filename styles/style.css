@@ -396,6 +396,10 @@ nav ul {
 
     }
 
+    .nav-logo-title {
+        display: none;
+    }
+
     .menu-items {
         display: none;
     }
