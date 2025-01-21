@@ -159,10 +159,7 @@ nav ul {
         background: #ffffff;
         display: none;
     }
-    main {
-        /* margin: 10px 141px 20px 141px; */
-    }
-    /* banner section */
+   
 
     .banner-text {
         font-weight: bold;
@@ -435,7 +432,7 @@ nav ul {
 
     /* nav sectin */
 
-    nav h1,{
+    nav h1 {
         display: none;
         max-width: 100%;
 
