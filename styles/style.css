@@ -153,6 +153,12 @@ nav ul {
 
     }
 
+    .hamburger {
+        border: none;
+        background: #ffffff;
+        display: none;
+    }
+
     /* banner section */
 
     .banner-text {
@@ -405,6 +411,12 @@ nav ul {
     }
     .contact-button {
         display: none;
+    }
+
+    .hamburger {
+        border: none;
+        background: #ffffff;
+        display: block;
     }
 
 
