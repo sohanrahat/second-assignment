@@ -384,9 +384,9 @@ nav ul {
 
    
    
-   /* Responsive for small devices */
+   /* Responsive for iphone 13 & 14 */
 
-   @media screen and (max-width:576px) {
+   @media screen and (max-width: 390px) {
 
     /* nav sectin */
 
@@ -448,4 +448,5 @@ nav ul {
     }
 
    }
-    
+
+   
