@@ -127,7 +127,7 @@
     
 /* nav sections */
 nav {
-    margin: 10px 141px 20px 141px;
+    /* margin: 10px 141px 20px 141px; */
     height: 1440px;
     height: 102px;
     /* margin: 10px 141px 20px 141px; */
@@ -160,7 +160,7 @@ nav ul {
         display: none;
     }
     main {
-        margin: 10px 141px 20px 141px;
+        /* margin: 10px 141px 20px 141px; */
     }
     /* banner section */
 
@@ -345,7 +345,7 @@ nav ul {
     }
 
     .footer {
-        margin: 10px 141px 20px 141px;
+        /* margin: 10px 141px 20px 141px; */
         background-color: #01ACFD;
         margin-top: 0;
         display: grid; 
