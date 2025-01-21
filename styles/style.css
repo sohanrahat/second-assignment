@@ -491,7 +491,9 @@ nav ul {
         grid-template-rows: repeat(2, auto);
         gap: 20px;
     }
-
+    /* .footer-image{
+        filter: url('#skyblue-to-white');
+    } */
     .footer-container {
         display: flex;
         flex-direction: column;
