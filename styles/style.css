@@ -327,7 +327,7 @@ nav ul {
    
    /* Responsive for small devices */
 
-   @media screen and (max-width:1170px) {
+   @media screen and (max-width:576px) {
 
     /* nav sectin */
 
@@ -347,13 +347,17 @@ nav ul {
     .banner {
     /* max-width: 1440px;
     height: auto; */
-    margin: 10px 141px 20px 141px;
+    /* margin: 10px 141px 20px 141px; */
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 20px;
     display: flex;
     flex-direction: column-reverse;
     text-align: center;
     justify-content: center;
-    max-width: 100%;
-    padding: 0 20;
+    align-items: center;
+   
     }
 
     .standard-curriculum {
@@ -367,6 +371,11 @@ nav ul {
     .stories {
         display: flex;
         flex-direction: column;
+    }
+    .our-stories{
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: repeat(2, auto);
+        gap: 20px;
     }
 
    }
