@@ -85,7 +85,7 @@
         border: none;
         border-radius: 48px;
         height: 48px;
-        width: 175px;
+        max-width: 175px;
         padding: 10 10;
     }
     .november-blue-button {
@@ -97,7 +97,7 @@
         border: none;
         border-radius: 48px;
         height: 48px;
-        width: 175px;
+        max-width: 175px;
         padding: 10 10;
     }
 
@@ -271,6 +271,8 @@ nav ul {
     .stories {
         background-color: #ffffff;
         border-radius: 16px;
+        max-width: 100%;
+        height: auto;
         display: flex;
         flex-direction: column;
         overflow: hidden;
@@ -393,6 +395,39 @@ nav ul {
    /* Responsive for iphone 13 & 14 */
 
    @media screen and (max-width: 390px) {
+
+    /* shared buttons in small devices */
+
+    .november-green-button {
+        color: #ffffff;
+        font-family: "Raleway", serif;
+        font-weight: medium;
+        font-size: 0.96rem;
+        background-color: #95b226;
+        border: none;
+        border-radius: 28px;
+        height: 22px;
+        max-width: 104px;
+        padding: 10 10;
+        position: relative;
+        right: -15px;
+        top: -10px; 
+    }
+    .november-blue-button {
+        color: #ffffff;
+        font-family: "Raleway", serif;
+        font-weight: medium;
+        /* font-size: 0.57rem; */
+        background-color: #5d58f0;
+        border: none;
+        border-radius: 28px;
+        height: 22px;
+        max-width: 104px;
+        padding: 10 10;
+        right: -15px;
+        top: -10px; 
+    }
+
 
     /* nav sectin */
 
